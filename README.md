@@ -22,9 +22,6 @@ This is a password vault CLI application developed as the final project for Harv
 * If the user chooses option 5, the deleteAccount() function will be called to delete an existing account based on it's ID number.
 * If the user chooses option 6 the application will exit.
 
-## 🎥 Video Demo:
-https://youtu.be/1txp93oVb9I
-
 ## 🚀 Installation
 
 * Clone the GitHub repository
