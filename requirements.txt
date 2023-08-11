@@ -1,0 +1,5 @@
+cryptography
+pycryptodome
+mysql-connector-python
+prettytable
+rich
