@@ -1,7 +1,14 @@
 # Password-Vault
 ## 📄 Description:
 This is a password vault CLI application developed as the final project for Harvard's CS50 course. The program allows users to securely store and manage their passwords for different accounts. It is written in Python and it stores the accounts information in a MySQL database using encryption to protect sensitive information..
- 
+
+ ## ✨ Features
+* Add accounts to the vault
+* Search for existing accounts in the vault
+* List all accounts in the vault
+* Delete accounts from the vault
+* Generate strong passwords
+  
 ## 💻 The Code
 * The main code (vault.py) is pretty simple and that's because all the functions are stored in functions.py.
 * The first function to be called is dbconnect() which establishes the connection with the database. It will first try to load the database IP address and user from the file .dbconfig.jason and if the file does not exist it will ask the user for the information and create the file. Then the user will be asked for the database password, which the user will have to type in every time the code is run for security measures. After establishing the connection, the function will return the values for "host", "user", and "password" which are going to be stored as variables so every function that needs to connect to the database can do so without the user having to type in the information every time. The code then checks if the database "vault" exists and if it doesn't it will call the function config().
@@ -14,14 +21,6 @@ This is a password vault CLI application developed as the final project for Harv
 * If the user chooses option 4, the generatePassword() function will be called. This function will prompt the user for the desired password length (minimum 8 characters) and also if special characters are desired or not. The strong password will be generated and printed to te user.
 * If the user chooses option 5, the deleteAccount() function will be called to delete an existing account based on it's ID number.
 * If the user chooses option 6 the application will exit.
-
-
-## ✨ Features
-* Add accounts to the vault
-* Search for existing accounts in the vault
-* List all accounts in the vault
-* Delete accounts from the vault
-* Generate strong passwords
 
 ## 🎥 Video Demo:
 https://youtu.be/1txp93oVb9I
