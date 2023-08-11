@@ -32,7 +32,7 @@ git clone git@github.com:fxavierx/Password-Vault.git
 ```
 pip3 install -r requirements.txt
 ```
-#### ☕️ Usage
+## ☕️ Usage
 * Start the MySQL service
 ```
 mysql.server start
