@@ -1,6 +1,6 @@
 # Password-Vault
 ## 📄 Description:
-This is a password vault CLI application developed as the final project for Harvard's CS50 course. The program allows users to securely store and manage their passwords for different accounts. It is written in Python and it stores the accounts information in a MySQL database using encryption to protect sensitive information..
+This is a password vault CLI application developed as the final project for Harvard's CS50 course. The program allows users to securely store and manage their passwords for different accounts. It is written in Python and it stores the accounts information in a MySQL database using encryption to protect sensitive information.
 
  ## ✨ Features
 * Add accounts to the vault
