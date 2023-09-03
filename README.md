@@ -4,7 +4,7 @@ This is a password vault CLI application developed as the final project for Harv
 
  ## ✨ Features
 * Add an account
-* Search for an existing accounts
+* Search for an existing account
 * List all the stored accounts
 * Delete an account
 * Generate a strong password
