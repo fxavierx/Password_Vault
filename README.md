@@ -2,6 +2,8 @@
 ## 📄 Description:
 Password-Vault is a command-line interface (CLI) application developed as the final project for Harvard’s CS50 course. This program enables users to securely store and manage their passwords across various accounts. Written in Python, it utilizes MySQL for database management and incorporates encryption to safeguard sensitive information.
 
+[Watch the demo video](https://www.youtube.com/watch?v=sMd_oEbwYoI)
+
  ## ✨ Features
 * Add an Account: Allows users to securely store new account credentials, including website names, URLs, email addresses, usernames and passwords.
 * Search for an Existing Account: Provides functionality to search and retrieve stored account information.
