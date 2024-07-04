@@ -1,13 +1,13 @@
 # Password-Vault
 ## 📄 Description:
-This is a password vault CLI application developed as the final project for Harvard's CS50 course. The program allows users to securely store and manage their passwords for different accounts. It is written in Python and it stores the accounts information in a MySQL database using encryption to protect sensitive information.
+Password-Vault is a command-line interface (CLI) application developed as the final project for Harvard’s CS50 course. This program enables users to securely store and manage their passwords across various accounts. Written in Python, it utilizes MySQL for database management and incorporates encryption to safeguard sensitive information.
 
  ## ✨ Features
-* Add an account
-* Search for an existing account
-* List all the stored accounts
-* Delete an account
-* Generate a strong password
+* Add an Account: Allows users to securely store new account credentials, including website names, URLs, email addresses, usernames and passwords.
+* Search for an Existing Account: Provides functionality to search and retrieve stored account information.
+* List All Stored Accounts: Displays a comprehensive list of all saved accounts, providing an overview of managed credentials.
+* Delete an Account: Enables users to remove account credentials from the database.
+* Generate a Strong Password: Includes a password generator that creates strong, random passwords for enhanced security.
   
 ## 💻 The Code
 * The main code (vault.py) is pretty simple and that's because all the functions are stored in functions.py.
