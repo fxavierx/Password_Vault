@@ -6,7 +6,7 @@ Password-Vault is a command-line interface (CLI) application developed as the fi
 * Add an Account: Allows users to securely store new account credentials, including website names, URLs, email addresses, usernames and passwords.
 * Search for an Existing Account: Provides functionality to search and retrieve stored account information.
 * List All Stored Accounts: Displays a comprehensive list of all saved accounts, providing an overview of managed credentials.
-* Delete an Account: Enables users to remove account credentials from the database.
+* Delete an Account: Enables users to remove account credentials from the database based on it's id.
 * Generate a Strong Password: Includes a password generator that creates strong, random passwords for enhanced security.
   
 ## 💻 The Code
